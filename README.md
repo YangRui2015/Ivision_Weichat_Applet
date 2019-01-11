@@ -7,6 +7,7 @@
 # 示例
 ## 主界面
 <div align=center><img src="https://github.com/YangRui2015/Image/blob/master/IMG_0159.PNG" height="500" alt="图片加载失败时，显示这段字"/></div>
+
 ## 部分功能界面
 <div align=center><img src="https://github.com/YangRui2015/Image/blob/master/IMG_0160.PNG" height="500" alt="图片加载失败时，显示这段字"/></div>
 
