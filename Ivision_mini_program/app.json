@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/index/index",
+    "pages/cartoon/cartoon",
+    "pages/dream/dream",
+    "pages/style/style",
+    "pages/connectus/connectus",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Ivision云图计划",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#35495e",
+    "borderStyle": "white",
+    "backgroundColor": "#f9f9f9",
+    "list": [
+      {
+        "text": "功能",
+        "pagePath": "pages/home/home",
+        "iconPath": "pages/image/function.png",
+        "selectedIconPath": "pages/image/function_on.png"
+      },
+      {
+        "text": "联系我们",
+        "pagePath": "pages/connectus/connectus",
+        "iconPath": "pages/image/connect.png",
+        "selectedIconPath": "pages/image/connect_on.png"
+      }
+    ]
+  },
+
+"networkTimeout": {
+  "request": 20000,
+  "connectSocket": 20000,
+  "uploadFile": 20000,
+  "downloadFile": 20000
+}
+}

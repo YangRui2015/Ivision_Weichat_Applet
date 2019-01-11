@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="container">
+
+<image class="show_image" src="{{real_show}}" mode="aspectFit" 
+bindtap='showImg'>
+</image>
+
+<button class="load_button" bindtap="upload">{{msg}} 
+</button>
+
+<view class="scroll_box">
+
+<scroll-view scroll-x="true" class="ImageList">
+<view class="imglist" wx:for="{{img_list}}" wx:key="index">
+    <view class="viewinlist">
+		<image class="imginlist" src="{{img_list[index]}}" bindtap='select'>
+    </image>
+    <text class="noteinlist">{{note_list[index]}}</text>
+    </view>
+</view>
+</scroll-view>
+
+<view>
+<text class="note">先上传图片然后点击喜欢的卡通风格即可；\n
+</text>
+</view>
+
+</view>
+
+</view>

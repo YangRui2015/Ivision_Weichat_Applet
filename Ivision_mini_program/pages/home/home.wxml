@@ -1,0 +1,49 @@
+<!--index.wxml-->
+<view class="container"> 
+
+<!-- <swiper class="swiper" indicator-dots="true" autoplay="true" interval="3500" duration="3000" circular='true'>  
+      <block wx:for="{{imglist}}" wx:key="index">  
+        <swiper-item>  
+          <image src="{{imglist[index]}}" class="slide-image" mode="aspectFit"/>  
+        </swiper-item>  
+      </block>  
+</swiper>   -->
+
+<view class="bg">
+<image class="swiper" src="{{imglist}}" mode="aspectFit"  ></image>
+</view>
+
+<view class="row0">
+
+<view class="row0_0" bindtap='gotoasse'>
+<text class="note1">美学评价</text>
+<image class="show_image0" src="{{earpath}}" mode="aspectFit"  ></image>
+</view>
+
+<view class="row0_1" bindtap='gotostyle'>
+<image class="show_image1" src="{{stylepath}}" mode="aspectFit"  ></image>
+<text class="note2">风格迁移</text>
+</view>
+
+</view>
+
+
+<view class="row1">
+
+<view class="row1_0" bindtap='gotodream'>
+<text class="note1">梦境生成</text>
+<image class="show_image0" src="{{dreampath}}" mode="aspectFit"  ></image>
+</view>
+
+<view class="row1_1" bindtap='gotocartoon'>
+<image class="show_image1" src="{{cartoonpath}}" mode="aspectFit"  ></image>
+<text class="note2">卡通风格</text>
+</view>
+
+</view>
+
+
+
+
+
+</view>

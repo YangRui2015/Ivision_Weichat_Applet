@@ -1,0 +1,50 @@
+/**index.wxss**/
+
+.container{
+  display: flex;
+  align-items: center;
+  text-align: center
+}
+
+.show_image {
+  align-items: center;
+  width:60%;
+  height:50%; 
+  top:0rpx;
+  position: fixed
+}
+
+.load_button {
+  top: 80%;
+  width: 60%;
+  height: 6.5%;
+  border-radius: 20rpx;
+  position: fixed;
+  font-size: 30rpx;
+  color: white;
+  background-color: dodgerblue
+}
+
+.note {
+  top: 50%;
+  font-size: 30rpx;
+  left: 90rpx;
+  position: fixed;
+  color: gray
+}
+
+.scorenote {
+  top: 56%;
+  font-size: 40rpx;
+  left: 180rpx;
+  position: fixed;
+  color: dodgerblue
+}
+
+.ranknote {
+  top: 70%;
+  font-size: 35rpx;
+  left: 125rpx;
+  position: fixed;
+  color: royalblue
+}

@@ -1,0 +1,64 @@
+/**index.wxss**/
+
+.container{
+  display: flex;
+  align-items: center;
+  text-align: center
+}
+
+.show_image {
+  align-items: center;
+  width:80%;
+  height:40%; 
+  top:5%;
+  /* margin-bottom:10rpx; */
+  position: fixed;
+  /* border: 2rpx solid */
+}
+
+.load_button {
+  top: 53%;
+  width: 60%;
+  height: 6%;
+  color: white;
+  font-size: 30rpx;
+  background-color: dodgerblue;
+  border-radius: 20rpx;
+  position: fixed;
+}
+
+.scroll_box{
+width: 100%;
+height: 250rpx;
+overflow: hidden;
+padding: 20rpx;
+white-space: nowrap;
+top: 60%;
+position: fixed
+}
+
+.ImageList{
+  display: inline-block; 
+  flex-direction: row;
+  width: 100%;
+  height: auto
+}
+
+.imglist{
+  display: inline-block;
+  width: 250rpx;
+  height: 250rpx;
+  padding: 5rpx;
+}
+
+.imginlist{
+  height:250rpx;
+  width:250rpx;
+}
+
+.note {
+  font-size: 22rpx;
+  top: 92%;
+  left: 200rpx;
+  position: fixed
+}

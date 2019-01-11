@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+ 
+
+<image class="show_image" src="{{show_image}}" mode="aspectFit"         bindtouchstart='show' bindtap='saveImg'></image>
+
+<text class="scorenote">{{text1}}</text>
+<text class="ranknote">{{text2}}</text>
+
+<button class="load_button"  bindtap="upload"> 上传图片 </button>
+
+</view>
